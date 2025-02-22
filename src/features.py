@@ -50,3 +50,10 @@ def resolve_issues(type, details):
         logger.info(f"An issue has been resolved. Check rid {rid} for more details.")
     except Exception as e:
         logger.error(f"Error while resolving issues: {e}")
+
+def save_changes():
+    db.commit()
+
+def close_connection():
+    cur.close()
+    db.close()
