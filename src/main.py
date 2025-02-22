@@ -34,9 +34,14 @@ def main():
             """)
             choice = int(input("Enter your choice: "))
             if choice == 1:
-                check_network_failures()
+                latency = float(input("Enter latency: "))
+                packet_loss = float(input("Enter packet loss: "))
+                signal_strength = float(input("Enter signal strength: "))
+                check_network_failures(latency, packet_loss, signal_strength)
             elif choice == 2:
-                resolve_issues()
+                type = input("Enter the type of issue: ")
+                details = input("Enter the details of the issue: ")
+                resolve_issues(type, details)
             elif choice == 3:
                 break
             else:
