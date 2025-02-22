@@ -1,0 +1,501 @@
+complaint_id,complaint_text,category
+1,I have very low signal strength at home.,Signal Issue
+2,No network coverage inside my office.,Signal Issue
+3,No proper resolution from your service team.,Customer Support
+4,Calls keep disconnecting due to weak signal.,Signal Issue
+5,No network coverage inside my office.,Signal Issue
+6,"I was on hold for 30 minutes, and then the call got disconnected.",Customer Support
+7,Why is there a network outage every weekend?,Service Outage
+8,I am paying for high-speed internet but getting very low speeds.,Internet Speed
+9,When will the service be restored?,Service Outage
+10,Support team gave incorrect information.,Customer Support
+11,Why was my auto-payment deducted twice?,Billing Problem
+12,Internet is completely down in my neighborhood.,Service Outage
+13,Why is there a network outage every weekend?,Service Outage
+14,My bill is incorrect; I see extra charges.,Billing Problem
+15,Hidden charges keep appearing on my bill.,Billing Problem
+16,Calls keep disconnecting due to weak signal.,Signal Issue
+17,Calls keep disconnecting due to weak signal.,Signal Issue
+18,Videos keep buffering even with full signal.,Internet Speed
+19,Calls keep disconnecting due to weak signal.,Signal Issue
+20,No proper resolution from your service team.,Customer Support
+21,Hidden charges keep appearing on my bill.,Billing Problem
+22,I am paying for high-speed internet but getting very low speeds.,Internet Speed
+23,No network coverage inside my office.,Signal Issue
+24,I have very low signal strength at home.,Signal Issue
+25,I was overcharged this month without any reason.,Billing Problem
+26,Support team gave incorrect information.,Customer Support
+27,When will the service be restored?,Service Outage
+28,Videos keep buffering even with full signal.,Internet Speed
+29,Internet is completely down in my neighborhood.,Service Outage
+30,I am paying for high-speed internet but getting very low speeds.,Internet Speed
+31,I am paying for high-speed internet but getting very low speeds.,Internet Speed
+32,Gaming lag is unbearable due to poor internet speed.,Internet Speed
+33,Support team gave incorrect information.,Customer Support
+34,I have very low signal strength at home.,Signal Issue
+35,My bill is incorrect; I see extra charges.,Billing Problem
+36,Support team gave incorrect information.,Customer Support
+37,Support team gave incorrect information.,Customer Support
+38,No signal on my phone since morning.,Service Outage
+39,"My internet is so slow, even loading a webpage takes ages.",Internet Speed
+40,I was overcharged this month without any reason.,Billing Problem
+41,The chat support is useless and unhelpful.,Customer Support
+42,I canceled my plan but still got billed.,Billing Problem
+43,I have very low signal strength at home.,Signal Issue
+44,When will the service be restored?,Service Outage
+45,"I was on hold for 30 minutes, and then the call got disconnected.",Customer Support
+46,I canceled my plan but still got billed.,Billing Problem
+47,No network coverage inside my office.,Signal Issue
+48,My signal keeps dropping in my area.,Signal Issue
+49,The chat support is useless and unhelpful.,Customer Support
+50,Videos keep buffering even with full signal.,Internet Speed
+51,"My internet is so slow, even loading a webpage takes ages.",Internet Speed
+52,Why is there a network outage every weekend?,Service Outage
+53,Your customer support is impossible to reach.,Customer Support
+54,Why is there a network outage every weekend?,Service Outage
+55,My signal keeps dropping in my area.,Signal Issue
+56,Why is there a network outage every weekend?,Service Outage
+57,Gaming lag is unbearable due to poor internet speed.,Internet Speed
+58,My bill is incorrect; I see extra charges.,Billing Problem
+59,No signal on my phone since morning.,Service Outage
+60,I canceled my plan but still got billed.,Billing Problem
+61,There has been no network in my area for hours.,Service Outage
+62,Why is there a network outage every weekend?,Service Outage
+63,My signal keeps dropping in my area.,Signal Issue
+64,When will the service be restored?,Service Outage
+65,Hidden charges keep appearing on my bill.,Billing Problem
+66,Calls keep disconnecting due to weak signal.,Signal Issue
+67,I was overcharged this month without any reason.,Billing Problem
+68,There has been no network in my area for hours.,Service Outage
+69,My bill is incorrect; I see extra charges.,Billing Problem
+70,Your customer support is impossible to reach.,Customer Support
+71,There has been no network in my area for hours.,Service Outage
+72,There has been no network in my area for hours.,Service Outage
+73,Calls keep disconnecting due to weak signal.,Signal Issue
+74,"My internet is so slow, even loading a webpage takes ages.",Internet Speed
+75,I canceled my plan but still got billed.,Billing Problem
+76,I have very low signal strength at home.,Signal Issue
+77,I was overcharged this month without any reason.,Billing Problem
+78,Why is there a network outage every weekend?,Service Outage
+79,No proper resolution from your service team.,Customer Support
+80,The chat support is useless and unhelpful.,Customer Support
+81,"My internet is so slow, even loading a webpage takes ages.",Internet Speed
+82,When will the service be restored?,Service Outage
+83,I was overcharged this month without any reason.,Billing Problem
+84,Downloads take forever to complete.,Internet Speed
+85,"My internet is so slow, even loading a webpage takes ages.",Internet Speed
+86,There has been no network in my area for hours.,Service Outage
+87,Gaming lag is unbearable due to poor internet speed.,Internet Speed
+88,Why is there a network outage every weekend?,Service Outage
+89,Calls keep disconnecting due to weak signal.,Signal Issue
+90,Internet is completely down in my neighborhood.,Service Outage
+91,The chat support is useless and unhelpful.,Customer Support
+92,Hidden charges keep appearing on my bill.,Billing Problem
+93,Hidden charges keep appearing on my bill.,Billing Problem
+94,My bill is incorrect; I see extra charges.,Billing Problem
+95,I canceled my plan but still got billed.,Billing Problem
+96,There has been no network in my area for hours.,Service Outage
+97,Videos keep buffering even with full signal.,Internet Speed
+98,No signal on my phone since morning.,Service Outage
+99,Calls keep disconnecting due to weak signal.,Signal Issue
+100,No network coverage inside my office.,Signal Issue
+101,Downloads take forever to complete.,Internet Speed
+102,The chat support is useless and unhelpful.,Customer Support
+103,No network coverage inside my office.,Signal Issue
+104,I canceled my plan but still got billed.,Billing Problem
+105,My signal keeps dropping in my area.,Signal Issue
+106,Downloads take forever to complete.,Internet Speed
+107,Why do I get no bars in rural areas?,Signal Issue
+108,I canceled my plan but still got billed.,Billing Problem
+109,Internet is completely down in my neighborhood.,Service Outage
+110,No network coverage inside my office.,Signal Issue
+111,No proper resolution from your service team.,Customer Support
+112,I was overcharged this month without any reason.,Billing Problem
+113,Calls keep disconnecting due to weak signal.,Signal Issue
+114,I have very low signal strength at home.,Signal Issue
+115,Downloads take forever to complete.,Internet Speed
+116,Why is there a network outage every weekend?,Service Outage
+117,My bill is incorrect; I see extra charges.,Billing Problem
+118,No proper resolution from your service team.,Customer Support
+119,I canceled my plan but still got billed.,Billing Problem
+120,Gaming lag is unbearable due to poor internet speed.,Internet Speed
+121,Gaming lag is unbearable due to poor internet speed.,Internet Speed
+122,No proper resolution from your service team.,Customer Support
+123,I have very low signal strength at home.,Signal Issue
+124,Why is there a network outage every weekend?,Service Outage
+125,Gaming lag is unbearable due to poor internet speed.,Internet Speed
+126,Why was my auto-payment deducted twice?,Billing Problem
+127,My bill is incorrect; I see extra charges.,Billing Problem
+128,I canceled my plan but still got billed.,Billing Problem
+129,Why was my auto-payment deducted twice?,Billing Problem
+130,Calls keep disconnecting due to weak signal.,Signal Issue
+131,Your customer support is impossible to reach.,Customer Support
+132,Videos keep buffering even with full signal.,Internet Speed
+133,Videos keep buffering even with full signal.,Internet Speed
+134,I have very low signal strength at home.,Signal Issue
+135,No signal on my phone since morning.,Service Outage
+136,My signal keeps dropping in my area.,Signal Issue
+137,There has been no network in my area for hours.,Service Outage
+138,Your customer support is impossible to reach.,Customer Support
+139,No signal on my phone since morning.,Service Outage
+140,No proper resolution from your service team.,Customer Support
+141,No signal on my phone since morning.,Service Outage
+142,Videos keep buffering even with full signal.,Internet Speed
+143,I am paying for high-speed internet but getting very low speeds.,Internet Speed
+144,"I was on hold for 30 minutes, and then the call got disconnected.",Customer Support
+145,When will the service be restored?,Service Outage
+146,Gaming lag is unbearable due to poor internet speed.,Internet Speed
+147,"I was on hold for 30 minutes, and then the call got disconnected.",Customer Support
+148,Your customer support is impossible to reach.,Customer Support
+149,Support team gave incorrect information.,Customer Support
+150,There has been no network in my area for hours.,Service Outage
+151,My signal keeps dropping in my area.,Signal Issue
+152,Your customer support is impossible to reach.,Customer Support
+153,No proper resolution from your service team.,Customer Support
+154,Calls keep disconnecting due to weak signal.,Signal Issue
+155,When will the service be restored?,Service Outage
+156,I have very low signal strength at home.,Signal Issue
+157,When will the service be restored?,Service Outage
+158,My bill is incorrect; I see extra charges.,Billing Problem
+159,Videos keep buffering even with full signal.,Internet Speed
+160,My signal keeps dropping in my area.,Signal Issue
+161,My signal keeps dropping in my area.,Signal Issue
+162,Videos keep buffering even with full signal.,Internet Speed
+163,Downloads take forever to complete.,Internet Speed
+164,I was overcharged this month without any reason.,Billing Problem
+165,Downloads take forever to complete.,Internet Speed
+166,No network coverage inside my office.,Signal Issue
+167,Videos keep buffering even with full signal.,Internet Speed
+168,I canceled my plan but still got billed.,Billing Problem
+169,Hidden charges keep appearing on my bill.,Billing Problem
+170,Calls keep disconnecting due to weak signal.,Signal Issue
+171,Calls keep disconnecting due to weak signal.,Signal Issue
+172,Support team gave incorrect information.,Customer Support
+173,The chat support is useless and unhelpful.,Customer Support
+174,Calls keep disconnecting due to weak signal.,Signal Issue
+175,I have very low signal strength at home.,Signal Issue
+176,Videos keep buffering even with full signal.,Internet Speed
+177,I was overcharged this month without any reason.,Billing Problem
+178,I have very low signal strength at home.,Signal Issue
+179,No proper resolution from your service team.,Customer Support
+180,I was overcharged this month without any reason.,Billing Problem
+181,I canceled my plan but still got billed.,Billing Problem
+182,Hidden charges keep appearing on my bill.,Billing Problem
+183,Calls keep disconnecting due to weak signal.,Signal Issue
+184,My signal keeps dropping in my area.,Signal Issue
+185,I have very low signal strength at home.,Signal Issue
+186,I have very low signal strength at home.,Signal Issue
+187,No signal on my phone since morning.,Service Outage
+188,I canceled my plan but still got billed.,Billing Problem
+189,Support team gave incorrect information.,Customer Support
+190,Support team gave incorrect information.,Customer Support
+191,No signal on my phone since morning.,Service Outage
+192,Your customer support is impossible to reach.,Customer Support
+193,My bill is incorrect; I see extra charges.,Billing Problem
+194,I am paying for high-speed internet but getting very low speeds.,Internet Speed
+195,Why was my auto-payment deducted twice?,Billing Problem
+196,Gaming lag is unbearable due to poor internet speed.,Internet Speed
+197,I was overcharged this month without any reason.,Billing Problem
+198,Internet is completely down in my neighborhood.,Service Outage
+199,Why do I get no bars in rural areas?,Signal Issue
+200,No network coverage inside my office.,Signal Issue
+201,Your customer support is impossible to reach.,Customer Support
+202,Your customer support is impossible to reach.,Customer Support
+203,My bill is incorrect; I see extra charges.,Billing Problem
+204,"My internet is so slow, even loading a webpage takes ages.",Internet Speed
+205,My signal keeps dropping in my area.,Signal Issue
+206,My signal keeps dropping in my area.,Signal Issue
+207,"My internet is so slow, even loading a webpage takes ages.",Internet Speed
+208,Why is there a network outage every weekend?,Service Outage
+209,There has been no network in my area for hours.,Service Outage
+210,No signal on my phone since morning.,Service Outage
+211,My bill is incorrect; I see extra charges.,Billing Problem
+212,My signal keeps dropping in my area.,Signal Issue
+213,When will the service be restored?,Service Outage
+214,I canceled my plan but still got billed.,Billing Problem
+215,I have very low signal strength at home.,Signal Issue
+216,Videos keep buffering even with full signal.,Internet Speed
+217,I was overcharged this month without any reason.,Billing Problem
+218,My signal keeps dropping in my area.,Signal Issue
+219,Gaming lag is unbearable due to poor internet speed.,Internet Speed
+220,There has been no network in my area for hours.,Service Outage
+221,The chat support is useless and unhelpful.,Customer Support
+222,Why is there a network outage every weekend?,Service Outage
+223,No signal on my phone since morning.,Service Outage
+224,"I was on hold for 30 minutes, and then the call got disconnected.",Customer Support
+225,I was overcharged this month without any reason.,Billing Problem
+226,My bill is incorrect; I see extra charges.,Billing Problem
+227,I was overcharged this month without any reason.,Billing Problem
+228,There has been no network in my area for hours.,Service Outage
+229,Support team gave incorrect information.,Customer Support
+230,Hidden charges keep appearing on my bill.,Billing Problem
+231,Internet is completely down in my neighborhood.,Service Outage
+232,Gaming lag is unbearable due to poor internet speed.,Internet Speed
+233,No network coverage inside my office.,Signal Issue
+234,Downloads take forever to complete.,Internet Speed
+235,"I was on hold for 30 minutes, and then the call got disconnected.",Customer Support
+236,I have very low signal strength at home.,Signal Issue
+237,I canceled my plan but still got billed.,Billing Problem
+238,Calls keep disconnecting due to weak signal.,Signal Issue
+239,My bill is incorrect; I see extra charges.,Billing Problem
+240,Why do I get no bars in rural areas?,Signal Issue
+241,I was overcharged this month without any reason.,Billing Problem
+242,My signal keeps dropping in my area.,Signal Issue
+243,Videos keep buffering even with full signal.,Internet Speed
+244,I have very low signal strength at home.,Signal Issue
+245,"I was on hold for 30 minutes, and then the call got disconnected.",Customer Support
+246,Videos keep buffering even with full signal.,Internet Speed
+247,Why is there a network outage every weekend?,Service Outage
+248,Why is there a network outage every weekend?,Service Outage
+249,Videos keep buffering even with full signal.,Internet Speed
+250,I was overcharged this month without any reason.,Billing Problem
+251,No proper resolution from your service team.,Customer Support
+252,"My internet is so slow, even loading a webpage takes ages.",Internet Speed
+253,Why do I get no bars in rural areas?,Signal Issue
+254,"My internet is so slow, even loading a webpage takes ages.",Internet Speed
+255,Internet is completely down in my neighborhood.,Service Outage
+256,Downloads take forever to complete.,Internet Speed
+257,No signal on my phone since morning.,Service Outage
+258,The chat support is useless and unhelpful.,Customer Support
+259,My bill is incorrect; I see extra charges.,Billing Problem
+260,I was overcharged this month without any reason.,Billing Problem
+261,No signal on my phone since morning.,Service Outage
+262,Gaming lag is unbearable due to poor internet speed.,Internet Speed
+263,Why is there a network outage every weekend?,Service Outage
+264,Why do I get no bars in rural areas?,Signal Issue
+265,Why do I get no bars in rural areas?,Signal Issue
+266,No proper resolution from your service team.,Customer Support
+267,Support team gave incorrect information.,Customer Support
+268,I have very low signal strength at home.,Signal Issue
+269,"My internet is so slow, even loading a webpage takes ages.",Internet Speed
+270,Why do I get no bars in rural areas?,Signal Issue
+271,No proper resolution from your service team.,Customer Support
+272,"I was on hold for 30 minutes, and then the call got disconnected.",Customer Support
+273,Your customer support is impossible to reach.,Customer Support
+274,Internet is completely down in my neighborhood.,Service Outage
+275,Your customer support is impossible to reach.,Customer Support
+276,Hidden charges keep appearing on my bill.,Billing Problem
+277,I have very low signal strength at home.,Signal Issue
+278,Why is there a network outage every weekend?,Service Outage
+279,"I was on hold for 30 minutes, and then the call got disconnected.",Customer Support
+280,Why was my auto-payment deducted twice?,Billing Problem
+281,"My internet is so slow, even loading a webpage takes ages.",Internet Speed
+282,Internet is completely down in my neighborhood.,Service Outage
+283,Hidden charges keep appearing on my bill.,Billing Problem
+284,The chat support is useless and unhelpful.,Customer Support
+285,No proper resolution from your service team.,Customer Support
+286,The chat support is useless and unhelpful.,Customer Support
+287,Videos keep buffering even with full signal.,Internet Speed
+288,Hidden charges keep appearing on my bill.,Billing Problem
+289,I canceled my plan but still got billed.,Billing Problem
+290,No network coverage inside my office.,Signal Issue
+291,I am paying for high-speed internet but getting very low speeds.,Internet Speed
+292,No signal on my phone since morning.,Service Outage
+293,No proper resolution from your service team.,Customer Support
+294,No signal on my phone since morning.,Service Outage
+295,My signal keeps dropping in my area.,Signal Issue
+296,Your customer support is impossible to reach.,Customer Support
+297,When will the service be restored?,Service Outage
+298,Gaming lag is unbearable due to poor internet speed.,Internet Speed
+299,I have very low signal strength at home.,Signal Issue
+300,The chat support is useless and unhelpful.,Customer Support
+301,Why do I get no bars in rural areas?,Signal Issue
+302,Why is there a network outage every weekend?,Service Outage
+303,Downloads take forever to complete.,Internet Speed
+304,The chat support is useless and unhelpful.,Customer Support
+305,"My internet is so slow, even loading a webpage takes ages.",Internet Speed
+306,I am paying for high-speed internet but getting very low speeds.,Internet Speed
+307,"I was on hold for 30 minutes, and then the call got disconnected.",Customer Support
+308,No signal on my phone since morning.,Service Outage
+309,"I was on hold for 30 minutes, and then the call got disconnected.",Customer Support
+310,Gaming lag is unbearable due to poor internet speed.,Internet Speed
+311,My bill is incorrect; I see extra charges.,Billing Problem
+312,My bill is incorrect; I see extra charges.,Billing Problem
+313,I canceled my plan but still got billed.,Billing Problem
+314,I was overcharged this month without any reason.,Billing Problem
+315,Downloads take forever to complete.,Internet Speed
+316,Why was my auto-payment deducted twice?,Billing Problem
+317,Support team gave incorrect information.,Customer Support
+318,When will the service be restored?,Service Outage
+319,When will the service be restored?,Service Outage
+320,Gaming lag is unbearable due to poor internet speed.,Internet Speed
+321,I was overcharged this month without any reason.,Billing Problem
+322,When will the service be restored?,Service Outage
+323,Downloads take forever to complete.,Internet Speed
+324,No signal on my phone since morning.,Service Outage
+325,Gaming lag is unbearable due to poor internet speed.,Internet Speed
+326,No signal on my phone since morning.,Service Outage
+327,There has been no network in my area for hours.,Service Outage
+328,Support team gave incorrect information.,Customer Support
+329,The chat support is useless and unhelpful.,Customer Support
+330,I was overcharged this month without any reason.,Billing Problem
+331,Your customer support is impossible to reach.,Customer Support
+332,My signal keeps dropping in my area.,Signal Issue
+333,Gaming lag is unbearable due to poor internet speed.,Internet Speed
+334,Why was my auto-payment deducted twice?,Billing Problem
+335,I canceled my plan but still got billed.,Billing Problem
+336,I was overcharged this month without any reason.,Billing Problem
+337,My signal keeps dropping in my area.,Signal Issue
+338,There has been no network in my area for hours.,Service Outage
+339,When will the service be restored?,Service Outage
+340,Support team gave incorrect information.,Customer Support
+341,Downloads take forever to complete.,Internet Speed
+342,I canceled my plan but still got billed.,Billing Problem
+343,I was overcharged this month without any reason.,Billing Problem
+344,I was overcharged this month without any reason.,Billing Problem
+345,I am paying for high-speed internet but getting very low speeds.,Internet Speed
+346,Internet is completely down in my neighborhood.,Service Outage
+347,Calls keep disconnecting due to weak signal.,Signal Issue
+348,There has been no network in my area for hours.,Service Outage
+349,No proper resolution from your service team.,Customer Support
+350,Downloads take forever to complete.,Internet Speed
+351,Your customer support is impossible to reach.,Customer Support
+352,No network coverage inside my office.,Signal Issue
+353,Why do I get no bars in rural areas?,Signal Issue
+354,There has been no network in my area for hours.,Service Outage
+355,"My internet is so slow, even loading a webpage takes ages.",Internet Speed
+356,Hidden charges keep appearing on my bill.,Billing Problem
+357,My bill is incorrect; I see extra charges.,Billing Problem
+358,I was overcharged this month without any reason.,Billing Problem
+359,Support team gave incorrect information.,Customer Support
+360,Gaming lag is unbearable due to poor internet speed.,Internet Speed
+361,No network coverage inside my office.,Signal Issue
+362,Calls keep disconnecting due to weak signal.,Signal Issue
+363,Hidden charges keep appearing on my bill.,Billing Problem
+364,When will the service be restored?,Service Outage
+365,No proper resolution from your service team.,Customer Support
+366,No signal on my phone since morning.,Service Outage
+367,"I was on hold for 30 minutes, and then the call got disconnected.",Customer Support
+368,I canceled my plan but still got billed.,Billing Problem
+369,"My internet is so slow, even loading a webpage takes ages.",Internet Speed
+370,I am paying for high-speed internet but getting very low speeds.,Internet Speed
+371,No proper resolution from your service team.,Customer Support
+372,Your customer support is impossible to reach.,Customer Support
+373,There has been no network in my area for hours.,Service Outage
+374,My signal keeps dropping in my area.,Signal Issue
+375,Why is there a network outage every weekend?,Service Outage
+376,Gaming lag is unbearable due to poor internet speed.,Internet Speed
+377,I canceled my plan but still got billed.,Billing Problem
+378,Videos keep buffering even with full signal.,Internet Speed
+379,I am paying for high-speed internet but getting very low speeds.,Internet Speed
+380,My signal keeps dropping in my area.,Signal Issue
+381,Videos keep buffering even with full signal.,Internet Speed
+382,No network coverage inside my office.,Signal Issue
+383,I have very low signal strength at home.,Signal Issue
+384,No signal on my phone since morning.,Service Outage
+385,No signal on my phone since morning.,Service Outage
+386,"I was on hold for 30 minutes, and then the call got disconnected.",Customer Support
+387,I canceled my plan but still got billed.,Billing Problem
+388,Why is there a network outage every weekend?,Service Outage
+389,Gaming lag is unbearable due to poor internet speed.,Internet Speed
+390,When will the service be restored?,Service Outage
+391,Why is there a network outage every weekend?,Service Outage
+392,There has been no network in my area for hours.,Service Outage
+393,No proper resolution from your service team.,Customer Support
+394,My bill is incorrect; I see extra charges.,Billing Problem
+395,The chat support is useless and unhelpful.,Customer Support
+396,Hidden charges keep appearing on my bill.,Billing Problem
+397,Gaming lag is unbearable due to poor internet speed.,Internet Speed
+398,I have very low signal strength at home.,Signal Issue
+399,Support team gave incorrect information.,Customer Support
+400,"I was on hold for 30 minutes, and then the call got disconnected.",Customer Support
+401,I am paying for high-speed internet but getting very low speeds.,Internet Speed
+402,I was overcharged this month without any reason.,Billing Problem
+403,No proper resolution from your service team.,Customer Support
+404,Support team gave incorrect information.,Customer Support
+405,No network coverage inside my office.,Signal Issue
+406,Calls keep disconnecting due to weak signal.,Signal Issue
+407,No signal on my phone since morning.,Service Outage
+408,"I was on hold for 30 minutes, and then the call got disconnected.",Customer Support
+409,Internet is completely down in my neighborhood.,Service Outage
+410,Why is there a network outage every weekend?,Service Outage
+411,Why do I get no bars in rural areas?,Signal Issue
+412,I canceled my plan but still got billed.,Billing Problem
+413,No proper resolution from your service team.,Customer Support
+414,Gaming lag is unbearable due to poor internet speed.,Internet Speed
+415,My bill is incorrect; I see extra charges.,Billing Problem
+416,Hidden charges keep appearing on my bill.,Billing Problem
+417,"My internet is so slow, even loading a webpage takes ages.",Internet Speed
+418,Why do I get no bars in rural areas?,Signal Issue
+419,Support team gave incorrect information.,Customer Support
+420,When will the service be restored?,Service Outage
+421,I canceled my plan but still got billed.,Billing Problem
+422,My signal keeps dropping in my area.,Signal Issue
+423,Hidden charges keep appearing on my bill.,Billing Problem
+424,I am paying for high-speed internet but getting very low speeds.,Internet Speed
+425,"My internet is so slow, even loading a webpage takes ages.",Internet Speed
+426,"My internet is so slow, even loading a webpage takes ages.",Internet Speed
+427,Calls keep disconnecting due to weak signal.,Signal Issue
+428,Videos keep buffering even with full signal.,Internet Speed
+429,I was overcharged this month without any reason.,Billing Problem
+430,Videos keep buffering even with full signal.,Internet Speed
+431,I have very low signal strength at home.,Signal Issue
+432,Videos keep buffering even with full signal.,Internet Speed
+433,I canceled my plan but still got billed.,Billing Problem
+434,There has been no network in my area for hours.,Service Outage
+435,Why is there a network outage every weekend?,Service Outage
+436,My signal keeps dropping in my area.,Signal Issue
+437,Support team gave incorrect information.,Customer Support
+438,My signal keeps dropping in my area.,Signal Issue
+439,I am paying for high-speed internet but getting very low speeds.,Internet Speed
+440,No signal on my phone since morning.,Service Outage
+441,"I was on hold for 30 minutes, and then the call got disconnected.",Customer Support
+442,Support team gave incorrect information.,Customer Support
+443,Calls keep disconnecting due to weak signal.,Signal Issue
+444,No signal on my phone since morning.,Service Outage
+445,"I was on hold for 30 minutes, and then the call got disconnected.",Customer Support
+446,"I was on hold for 30 minutes, and then the call got disconnected.",Customer Support
+447,My bill is incorrect; I see extra charges.,Billing Problem
+448,Why was my auto-payment deducted twice?,Billing Problem
+449,Gaming lag is unbearable due to poor internet speed.,Internet Speed
+450,Why do I get no bars in rural areas?,Signal Issue
+451,Support team gave incorrect information.,Customer Support
+452,No signal on my phone since morning.,Service Outage
+453,No signal on my phone since morning.,Service Outage
+454,There has been no network in my area for hours.,Service Outage
+455,The chat support is useless and unhelpful.,Customer Support
+456,"My internet is so slow, even loading a webpage takes ages.",Internet Speed
+457,Support team gave incorrect information.,Customer Support
+458,Why do I get no bars in rural areas?,Signal Issue
+459,Why do I get no bars in rural areas?,Signal Issue
+460,My bill is incorrect; I see extra charges.,Billing Problem
+461,"My internet is so slow, even loading a webpage takes ages.",Internet Speed
+462,I am paying for high-speed internet but getting very low speeds.,Internet Speed
+463,I am paying for high-speed internet but getting very low speeds.,Internet Speed
+464,Why was my auto-payment deducted twice?,Billing Problem
+465,Gaming lag is unbearable due to poor internet speed.,Internet Speed
+466,No proper resolution from your service team.,Customer Support
+467,"I was on hold for 30 minutes, and then the call got disconnected.",Customer Support
+468,Hidden charges keep appearing on my bill.,Billing Problem
+469,Why do I get no bars in rural areas?,Signal Issue
+470,Support team gave incorrect information.,Customer Support
+471,Gaming lag is unbearable due to poor internet speed.,Internet Speed
+472,When will the service be restored?,Service Outage
+473,Downloads take forever to complete.,Internet Speed
+474,The chat support is useless and unhelpful.,Customer Support
+475,Downloads take forever to complete.,Internet Speed
+476,Why is there a network outage every weekend?,Service Outage
+477,My bill is incorrect; I see extra charges.,Billing Problem
+478,"My internet is so slow, even loading a webpage takes ages.",Internet Speed
+479,No signal on my phone since morning.,Service Outage
+480,The chat support is useless and unhelpful.,Customer Support
+481,Downloads take forever to complete.,Internet Speed
+482,There has been no network in my area for hours.,Service Outage
+483,There has been no network in my area for hours.,Service Outage
+484,Support team gave incorrect information.,Customer Support
+485,Gaming lag is unbearable due to poor internet speed.,Internet Speed
+486,Calls keep disconnecting due to weak signal.,Signal Issue
+487,Why do I get no bars in rural areas?,Signal Issue
+488,I have very low signal strength at home.,Signal Issue
+489,"I was on hold for 30 minutes, and then the call got disconnected.",Customer Support
+490,No proper resolution from your service team.,Customer Support
+491,My bill is incorrect; I see extra charges.,Billing Problem
+492,I was overcharged this month without any reason.,Billing Problem
+493,The chat support is useless and unhelpful.,Customer Support
+494,I was overcharged this month without any reason.,Billing Problem
+495,I have very low signal strength at home.,Signal Issue
+496,There has been no network in my area for hours.,Service Outage
+497,Gaming lag is unbearable due to poor internet speed.,Internet Speed
+498,Support team gave incorrect information.,Customer Support
+499,My signal keeps dropping in my area.,Signal Issue
+500,Gaming lag is unbearable due to poor internet speed.,Internet Speed

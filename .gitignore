@@ -1,0 +1,9 @@
+tpsenv/
+logs/
+*.log
+__pycache__
+*.pyc
+requirements.txt
+startproject.bat
+models/
+*.pkl
