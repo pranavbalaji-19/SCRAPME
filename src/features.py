@@ -79,7 +79,7 @@ def check_complaint_status(cid):
 def resolve_network_issues(fid, details):
     try:
         cur.execute(
-            f"INSERT INTO resolved_network_issues(details) VALUES ('{details}')"
+            f"INSERT INTO resolved_network_issues(fid, details) VALUES ({fid}, '{details}')"
         )
         db.commit()
         time.sleep(1)
@@ -90,10 +90,10 @@ def resolve_network_issues(fid, details):
     except Exception as e:
         logger.error(f"Error while resolving network issues: {e}")
 
-def resolve_customer_issues(details):
+def resolve_customer_issues(cid, details):
     try:
         cur.execute(
-            f"INSERT INTO resolved_customer_issues(details) VALUES ('{details}')"
+            f"INSERT INTO resolved_customer_issues(cid, details) VALUES ({cid}, '{details}')"
         )
         db.commit()
         time.sleep(1)

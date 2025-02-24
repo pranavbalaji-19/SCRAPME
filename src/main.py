@@ -44,11 +44,13 @@ def main():
                         signal_strength = float(input("Enter signal strength: "))
                         check_network_failures(latency, packet_loss, signal_strength)
                     elif choice == 2:
+                        fid = int(input("Enter the failure id: "))
                         details = input("Enter the details: ")
-                        resolve_network_issues(details)
+                        resolve_network_issues(fid,details)
                     elif choice == 3:
+                        cid = int(input("Enter the complaint id: "))
                         details = input("Enter the details: ")
-                        resolve_customer_issues(details)
+                        resolve_customer_issues(cid,details)
                     elif choice == 4:
                         new_username = input("\nEnter new username: ")
                         new_password = getpass("Enter new password: ")
