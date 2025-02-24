@@ -2,9 +2,22 @@ from dbsetup import get_connection, database_initialization
 from logsetup import logger
 from network_failures import *
 from customer_complaints import *
+import time
 
 db, cur = get_connection()
 database_initialization()
+
+def add_user(username, password, role):
+    try:
+        cur.execute(
+            f"INSERT INTO users(username, password, level) VALUES ('{username}', '{password}', '{role}')"
+        )
+        db.commit()
+        time.sleep(1)
+        logger.info(f"User {username} added with role '{role}'")
+        print(f"User {username} added with role '{role}'")
+    except Exception as e:
+        logger.error(f"Error while adding user: {e}")
 
 def check_and_validate_user(username, password):
     try:
@@ -19,7 +32,7 @@ def check_and_validate_user(username, password):
         return "Invalid password"
     except Exception as e:
         logger.error(f"Error while validating user: {e}")
-        return "Error while validating user"
+        return f"Error while validating user: {e}"
 
 def check_network_failures(latency, packet_loss,signal_strength):
     try:
@@ -27,33 +40,77 @@ def check_network_failures(latency, packet_loss,signal_strength):
         cur.execute(
             f"INSERT INTO network_failures(latency, packet_loss, signal_strength, severity) VALUES ({latency}, {packet_loss}, {signal_strength}, '{severity}')"
         )
-        logger.info(f"Network Failure severity predicted with severity: {severity}")
+        db.commit()
+        time.sleep(1)
+        logger.info(f"Network Failure predicted with severity: {severity}")
+        print(f"Network Failure predicted with severity: {severity}")
     except Exception as e: 
         logger.error(f"Error while checking network failures: {e}")
 
-def check_customer_complaints(complaint):
+def add_customer_complaints(username, complaint):
     try:
         category = classify_complaint(complaint)
         cur.execute(
-            f"INSERT INTO customer_complaints(complaint, category) VALUES ('{complaint}', '{category}')"
+            f'INSERT INTO customer_complaints(username, complaint, category) VALUES ("{username}", "{complaint}", "{category}")'
         )
+        db.commit()
+        time.sleep(1)
         logger.info(f"Customer Complaint classified in category: {category}")
+        cur.execute("SELECT MAX(cid) FROM customer_complaints")
+        cid = cur.fetchone()[0]
+        print(f"Complaint registered successfully! Your complaint id: {cid}")
     except Exception as e:
-        logger.error(f"Error while checking customer complaints: {e}")
+        logger.error(f"Error while adding complaint: {e}")
 
-def resolve_issues(type, details):
+def check_complaint_status(cid):
     try:
         cur.execute(
-            f"INSERT INTO resolved_issues(type, details) VALUES ('{type}', '{details}')"
+            f"SELECT cid FROM resolved_customer_issues WHERE cid = {cid}"
         )
-        rid = cur.execute("SELECT MAX(rid) FROM resolved_issues").fetchone()[0]
-        logger.info(f"An issue has been resolved. Check rid {rid} for more details.")
+        result = cur.fetchall()
+        if result == []:
+            print(f"Complaint {cid} is still pending.")
+        else:
+            print(f"Complaint {cid} has been resolved.")
+        logger.info(f"Complaint {cid} status checked")
+    except Exception as e:
+        logger.error(f"Error while checking complaint status: {e}")
+
+def resolve_network_issues(fid, details):
+    try:
+        cur.execute(
+            f"INSERT INTO resolved_network_issues(details) VALUES ('{details}')"
+        )
+        db.commit()
+        time.sleep(1)
+        cur.execute("SELECT MAX(rid) FROM resolved_network_issues")
+        rid = cur.fetchone()[0]
+        logger.info(f"A network issue has been resolved. Check rid {rid} for more details.")
+        print(f"A network issue has been resolved. Check rid {rid} for more details.")
+    except Exception as e:
+        logger.error(f"Error while resolving network issues: {e}")
+
+def resolve_customer_issues(details):
+    try:
+        cur.execute(
+            f"INSERT INTO resolved_customer_issues(details) VALUES ('{details}')"
+        )
+        db.commit()
+        time.sleep(1)
+        cur.execute("SELECT MAX(rid) FROM resolved_customer_issues")
+        rid = cur.fetchone()[0]
+        logger.info(f"A customer issue has been resolved. Check rid {rid} for more details.")
+        print(f"A customer issue has been resolved. Check rid {rid} for more details.")
     except Exception as e:
         logger.error(f"Error while resolving issues: {e}")
 
-def save_changes():
-    db.commit()
-
-def close_connection():
-    cur.close()
-    db.close()
+def check_logs():
+    try:
+        with open(r"logs/logfile.log", "r") as f:
+            lines = f.readlines()[-20:]
+            print("\nRecent logs:\n")
+            for line in lines:
+                print(line)
+        logger.info("Logs checked.")
+    except Exception as e:
+        logger.error(f"Error while checking logs: {e}")

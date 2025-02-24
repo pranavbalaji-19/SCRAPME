@@ -18,23 +18,52 @@ def database_initialization():
     cur.execute("USE telecom_db;")
 
     cur.execute(
-        "CREATE TABLE IF NOT EXISTS users \
-            (username VARCHAR(255) PRIMARY KEY, password VARCHAR(255), level ENUM('admin','customer'));"
+        "CREATE TABLE IF NOT EXISTS users ( \
+            username VARCHAR(255) PRIMARY KEY, \
+            password VARCHAR(255), \
+            level ENUM('admin','customer') \
+        );"
     )
 
     cur.execute(
-        "CREATE TABLE IF NOT EXISTS network_failures \
-            (fid INT AUTO_INCREMENT PRIMARY KEY, latency INT, packet_loss DOUBLE, signal_strength INT, severity VARCHAR(8), failure_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP);"
+        "CREATE TABLE IF NOT EXISTS network_failures ( \
+            fid INT AUTO_INCREMENT PRIMARY KEY, \
+            latency INT, packet_loss DOUBLE, \
+            signal_strength INT, \
+            severity VARCHAR(8), \
+            failure_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP \
+        );"
     )
 
     cur.execute(
-        "CREATE TABLE IF NOT EXISTS customer_complaints \
-            (cid INT AUTO_INCREMENT PRIMARY KEY, complaint TEXT, category VARCHAR(30), complaint_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP);"
+        "CREATE TABLE IF NOT EXISTS customer_complaints ( \
+            cid INT AUTO_INCREMENT PRIMARY KEY, \
+            username VARCHAR(255), \
+            complaint TEXT, \
+            category VARCHAR(30), \
+            complaint_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP, \
+            FOREIGN KEY (username) REFERENCES users(username) \
+        );"
     )
 
     cur.execute(
-        "CREATE TABLE IF NOT EXISTS resolved_issues \
-            (rid INT AUTO_INCREMENT PRIMARY KEY, type ENUM('network','complaint'), details TEXT, resolved_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP);"
+        "CREATE TABLE IF NOT EXISTS resolved_network_issues ( \
+            rid INT AUTO_INCREMENT PRIMARY KEY, \
+            fid INT, \
+            details TEXT, \
+            resolved_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP, \
+            FOREIGN KEY (fid) REFERENCES network_failures(fid) \
+        );"
+    )
+
+    cur.execute(
+        "CREATE TABLE IF NOT EXISTS resolved_customer_issues ( \
+            rid INT AUTO_INCREMENT PRIMARY KEY, \
+            cid INT, \
+            details TEXT, \
+            resolved_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP, \
+            FOREIGN KEY (cid) REFERENCES customer_complaints(cid) \
+        );"
     )
 
     db.commit()
