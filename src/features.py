@@ -43,6 +43,9 @@ def check_network_failures(latency, packet_loss,signal_strength):
         db.commit()
         time.sleep(1)
         logger.info(f"Network Failure predicted with severity: {severity}")
+        cur.execute("SELECT MAX(fid) FROM network_failures")
+        fid = cur.fetchone()[0]
+        print(f"Network failure id: {fid}")
         print(f"Network Failure predicted with severity: {severity}")
     except Exception as e: 
         logger.error(f"Error while checking network failures: {e}")
@@ -65,13 +68,13 @@ def add_customer_complaints(username, complaint):
 def check_complaint_status(cid):
     try:
         cur.execute(
-            f"SELECT cid FROM resolved_customer_issues WHERE cid = {cid}"
+            f"SELECT * FROM resolved_customer_issues WHERE cid = {cid}"
         )
         result = cur.fetchall()
         if result == []:
             print(f"Complaint {cid} is still pending.")
         else:
-            print(f"Complaint {cid} has been resolved.")
+            print(f"Complaint {cid} has been resolved.\nDETAILS: {result[0][2]}")
         logger.info(f"Complaint {cid} status checked")
     except Exception as e:
         logger.error(f"Error while checking complaint status: {e}")
